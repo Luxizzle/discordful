@@ -1,0 +1,29 @@
+{
+  "name": "discordful",
+  "version": "0.0.1",
+  "description": "A modular discord bot framework",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luxizzle/discordful.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Luxizzle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luxizzle/discordful/issues"
+  },
+  "homepage": "http://lux.moe/discordful/",
+  "dependencies": {
+    "discordie": "^0.11.0",
+    "trough": "^1.0.0"
+  }
+}
