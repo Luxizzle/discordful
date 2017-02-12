@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node ./test/test.js"
+    "test": "DEBUG=discordful node ./test/test.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "homepage": "http://lux.moe/discordful/",
   "dependencies": {
+    "debug": "^2.6.1",
     "discordie": "^0.11.0",
     "trough": "^1.0.0"
   }

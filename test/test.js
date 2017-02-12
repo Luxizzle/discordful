@@ -19,7 +19,7 @@ parser
     })
 
 client.event('MESSAGE_CREATE')
-    .use(function(message) {
-        return console.log(message.author.username,message.content)
-    })
+    .use(function(e) {
+        return e.message
+    })  
     .use(parser.parse())
