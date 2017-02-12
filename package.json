@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "DEBUG=discordful node ./test/test.js"
+    "test": "DEBUG=df* node ./test/test.js"
   },
   "repository": {
     "type": "git",
