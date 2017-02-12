@@ -22,6 +22,7 @@
         "valid-typeof": "warn",
         "no-trailing-spaces": "warn",
         "eqeqeq": "warn",
-        "semi": "warn"
+        "semi": "warn",
+        "eol-last": "warn"
     }
 }
