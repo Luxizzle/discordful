@@ -18,3 +18,9 @@ If you do send a pr, be sure to run `npm run lint` and fix some mistakes (I'm ad
 * Advanced and simple solutions
 * [Connect](https://www.npmjs.com/package/connect)-like middleware plugins
 * Built on top of [Discordie](https://github.com/qeled/discordie)
+
+## Examples
+
+[discordful-bot](https://github.com/Luxizzle/discordful-bot) - A bot made with discordful
+
+Look at the test/ directory, examples and documentation coming soon!
