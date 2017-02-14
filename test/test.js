@@ -11,15 +11,15 @@ var token = require('./auth.js');
 client.connect({token: token});
 
 parser
-    .command('ping', {
-        description: 'We all know what this does'
-    })
-    .callback(function(args) {
-        this.reply('pong! ' + args.join(', '));
-    });
+.command('ping', {
+    description: 'We all know what this does'
+})
+.callback(function(args) {
+    this.reply('pong! ' + args.join(', '));
+});
 
 client.event('MESSAGE_CREATE')
-    .use(function(e) {
-        return e.message;
-    })
-    .use(parser.parse());
+.use(function(e) {
+    return e.message;
+})
+.use(parser.parse());
