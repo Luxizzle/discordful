@@ -21,6 +21,9 @@ If you do send a pr, be sure to run `npm run lint` and fix some mistakes (I'm ad
 
 ## Examples
 
-[discordful-bot](https://github.com/Luxizzle/discordful-bot) - A bot made with discordful
+ - [discordful-bot](https://github.com/Luxizzle/discordful-bot) - A bot made with discordful
+
+### Blog posts
+ - [The Discordful pipeline](http://lux.moe/the-discordful-pipeline/) - Simple tutorial to get you started.
 
 Look at the test/ directory, examples and documentation coming soon!
