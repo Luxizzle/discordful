@@ -1,6 +1,13 @@
 var trough = require('trough');
 var log = require('debug')('df:ep');
 
+/*
+ * The event pipeline that you can plug plugins into
+ * @class
+ * @param {Discordful} discordful - The original discordful class
+ * @param {String} event - The event name
+ * @returns {EventPipeline}
+ */
 class EventPipeline {
     constructor(discordful, event) {
         var _this = this;
@@ -18,6 +25,11 @@ class EventPipeline {
         return this;
     }
 
+    /*
+     * @function
+     * @param {Function} fn - The function to use
+     * @returns {EventPipeline}
+     */
     use(fn) {
         this.pipeline.use(fn);
 
