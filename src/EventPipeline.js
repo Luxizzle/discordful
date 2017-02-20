@@ -17,7 +17,10 @@ class EventPipeline {
 
         this.discordful.discordie.Dispatcher.on(event, (e) => {
             _this.pipeline.run(e.message, e => {
-                if (e) log('EVENT ERROR : ' + e);
+                if (e) {
+                    if (_this.discordful.options.throw) throw e;
+                    log('EVENT ERROR : ' + e);
+                }
             });
         });
 
