@@ -14,6 +14,8 @@ class Discordful {
     var _this = this;
     this.discordie = new Discordie(options);
 
+    this.options = options;
+
     this.User = this.discordie.User;
     this.Users = this.discordie.Users;
     this.Guilds = this.discordie.Guilds;
