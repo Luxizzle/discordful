@@ -10,8 +10,6 @@
 
 A modular discord bot framework.
 
-Discuss Discordful in my Discord server: [![#discordful](https://discordapp.com/api/guilds/195929833019146240/embed.png?style=shield)](https://discord.gg/BRN5x7W)
-
 I currently dont accepts any pull requests for features while its still work in progress. If you have any fixes then be free to send one!
 If you do send a pr, be sure to run `npm run lint` and fix some mistakes (I'm addicted to clean code).
 
